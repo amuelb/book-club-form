@@ -1,0 +1,153 @@
+
+html{
+	top:0;
+	margin:0;
+}
+body {
+  background: #fff;
+  margin:0;
+  top:0;
+}
+
+header {
+	background-color: #333;
+	margin:0;
+	width: 100%;
+	top:0;
+	overflow:hidden;
+	
+}
+
+.logo {
+	width: 60%;
+	display:block;
+	margin: auto;
+	text-align:center;
+}
+
+
+.text-input {
+	 background:#fff;
+  color:#333;
+  padding:.2em;
+   appearance: none;
+   font: 1em "Helvetica Neue" Arial;
+   font-weight: 200;
+  -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+      -ms-border-radius: 6px;
+       -o-border-radius: 6px;
+          border-radius: 6px;
+		 
+}
+
+h1 {
+	display:block;
+  text-align: center;
+  font: 4em "Helvetica Neue" Arial;
+  color: #fff;
+  font-weight: 800;
+  padding: 40px;
+  padding-bottom: 0;
+}
+
+p {
+  text-align: center;
+  font: 1em "Helvetica Neue" Arial;
+  color: #22B573;
+  font-weight: 800;
+  font-size:2em;
+  margin-top:-5px;
+  padding-bottom: 30px;
+}
+
+.fork {
+  padding-bottom:60px;
+}
+
+footer {
+  margin-top:50px;
+  text-align: center;
+  padding:40px;
+}
+
+footer > p {
+  padding-top:30px;
+  text-transform:none;
+  letter-spacing: 0;
+}
+
+.frame {
+  width: 95%;
+  margin: 0px auto;
+}
+
+.box {
+  text-align: center;
+  font: 1em "Helvetica Neue" Arial;
+  background:#E9E9E9;
+  color:#333;
+  -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+      -ms-border-radius: 6px;
+       -o-border-radius: 6px;
+          border-radius: 6px;
+}
+
+
+button,
+button:visited {
+  margin: 50px auto;
+  width: 12em;
+  margin-right:5px;
+  background: #22B573;
+  font: 1em "Helvetica Neue" Arial;
+  -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+      -ms-border-radius: 6px;
+       -o-border-radius: 6px;
+          border-radius: 6px;
+  -webkit-transition: all 0.1s ease-in-out;
+     -moz-transition: all 0.1s ease-in-out;
+          transition: all 0.1s ease-in-out;
+  border: 0;
+  padding: 15px;
+  color: #fff;
+  text-decoration: none;
+}
+
+button:hover {
+  background:#396;
+  color: #fff;
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 3em;
+  }
+
+  p {
+    margin-top:0;
+    font-size:0.8em;
+    padding-bottom:45px;
+  }
+
+  footer {
+    margin-top:0;
+  }
+
+  .button {
+    display:block;
+    width:100%;
+    margin-top:10px;
+    margin-bottom:0;
+  }
+
+  p > span {
+    display:none;
+  }
+
+  .fork {
+    display:none;
+  }
+}
